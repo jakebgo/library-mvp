@@ -572,3 +572,49 @@ The application includes comprehensive error handling:
    - Loading states
    - Empty state handling
    - Rate limit notifications
+
+## Version Control
+
+### GitHub Repository
+The project is hosted on GitHub at [https://github.com/jakebgo/library-mvp](https://github.com/jakebgo/library-mvp).
+
+#### Repository Structure
+```
+library-mvp/
+├── src/                    # Source code
+│   ├── app/               # Next.js app router pages
+│   ├── components/        # React components
+│   └── lib/              # Utility functions
+├── scripts/              # Testing and setup scripts
+├── auth/                 # Authentication credentials
+├── ssl/                  # SSL certificates
+├── supabase/            # Supabase configuration
+└── chroma/              # ChromaDB data
+```
+
+#### Version Control Setup
+1. **Git Configuration**
+   - Main branch: `main`
+   - Proper .gitignore configuration
+   - Sensitive data excluded from version control
+
+2. **Excluded Files**
+   - Environment files (.env.local, .env.production)
+   - Node modules
+   - Build artifacts
+   - SSL certificates
+   - Auth credentials
+   - ChromaDB data
+   - IDE-specific files
+
+3. **Development Workflow**
+   - Clone the repository: `git clone https://github.com/jakebgo/library-mvp.git`
+   - Install dependencies: `npm install`
+   - Set up environment variables
+   - Run development server: `npm run dev`
+
+4. **Future Improvements**
+   - GitHub Actions for CI/CD
+   - Automated testing pipeline
+   - Code quality checks
+   - Automated deployment
