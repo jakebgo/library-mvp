@@ -1,0 +1,39 @@
+@cursor newthread
+
+Please review the following documents before proceeding:
+
+Documentation: [[documentation.md]]
+Progress Tracking: [[progress.md]]
+
+Topic: Library MVP - Book Summary Upload and AI Interaction Platform
+
+Context:
+-------------------
+- Next.js 14.1.0 web application with TypeScript and Tailwind CSS
+- Supabase for database and authentication
+- ChromaDB for vector search with Hugging Face embeddings
+- OpenRouter for AI model access
+- Current progress includes:
+  * Basic project setup and structure
+  * Upload functionality with file validation
+  * Books listing page with responsive design
+  * Authentication system with security improvements
+  * ChromaDB vector search implementation
+  * Production deployment configuration
+
+Questions/Tasks:
+-------------------
+1. What specific feature or component would you like to work on?
+2. Are there any particular issues or bugs to address?
+3. Would you like to implement any of the next steps:
+   - Set up ChromaDB server for production
+   - Build chat interface for asking questions
+   - Implement book deletion functionality
+
+Notes:
+-------------------
+- Ensure all environment variables are properly configured
+- Follow TypeScript and ESLint standards
+- Maintain responsive design principles
+- Consider security best practices
+- Test thoroughly before deployment 
